@@ -1,4 +1,12 @@
 
+
+function myFunction(LinjeNumber) {
+  const linje = document.getElementById("linje" + LinjeNumber);
+  alert(linje.innerText);
+}
+
+/*
+
 const linje1 = document.getElementById("linje1");
 const linje2 = document.getElementById("linje2");
 const linje3 = document.getElementById("linje3");
@@ -33,4 +41,4 @@ function myFunction6() {
  alert(linje6.innerText);
 }
 
- 
+ */
